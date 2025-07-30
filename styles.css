@@ -1,5 +1,29 @@
 body {
     margin: 0;
-    background: lightskyblue;
+    /*background: #87cefa;*/
+    background-image: url(Chicken_Nuggets.jpg);
     text-align: center;
+}
+.white {
+    color:white;
+}
+
+.a {
+    background-image: url(saxophone.jpg);
+}
+
+.box{
+    width: 350px;
+    height: 600px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.col {
+    float:left;
+    width:25%;
+    padding: 5%;
 }
