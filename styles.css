@@ -1,8 +1,14 @@
 body {
     margin: 0;
-    /*background: #87cefa;*/
-    background-image: url(Chicken_Nuggets.jpg);
+    background: 
+        linear-gradient(
+            100deg,
+            blueviolet,
+            red
+        );
+    /*background-image: url(Chicken_Nuggets.jpg);*/
     text-align: center;
+    align-items: center;
 }
 .white {
     color:white;
@@ -10,11 +16,6 @@ body {
 
 .a {
     background-image: url(saxophone.jpg);
-}
-
-.box{
-    width: 350px;
-    height: 600px;
 }
 
 .row::after {
@@ -25,5 +26,27 @@ body {
 .col {
     float:left;
     width:25%;
-    padding: 5%;
+    padding:0px;
+}
+
+.arrow::before {
+    content: "";
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: darkkhaki;
+    border: 2px;
+    
+}
+.parent p {
+    color:blueviolet;
+    background-color: crimson;
+}
+
+.container {
+    background: rgb(255, 255, 255);
+}
+
+t {
+    border: 3px solid rgb(247, 125, 125);
 }
